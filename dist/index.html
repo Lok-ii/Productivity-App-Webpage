@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Tailwind Cards</title>
+</head>
+<body>
+    <section class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-2 bg-neutral-600 min-h-screen py-2 xl:relative">
+        <div class="max-w-xs max-h-[36rem] bg-black gap-3 px-4 rounded-3xl flex flex-col items-center justify-center pb-8 xl:absolute xl:bottom-4 xl:left-24">
+            <img src="../src/main.png" alt="">
+            <h1 class="text-4xl w-[80%] self-start font-bold text-white">The only productivity app you need</h1>
+            <br>
+            <div class="w-full flex flex-col items-center gap-3">
+                <button class="font-bold text-sm text-white bg-blue-500 rounded-3xl w-[95%] py-2">Sign in with Email</button>
+                <div class="w-full flex justify-evenly">
+                    <button class="font-bold text-sm border border-slate-600 rounded-3xl text-white w-[40%] py-2">Google</button>
+                    <button class="font-bold text-sm border border-slate-600 rounded-3xl text-white w-[40%] py-2">Apple ID</button>
+                </div>
+            </div>
+            <p class="text-gray-400 text-xs">By continuing you agree to the Terms and Conditions</p>
+        </div>
+
+        <div class="max-w-xs text-white w-full min-h-[36rem] bg-black rounded-3xl flex flex-col items-center justify-evenly pt-8">
+            <div class="rounded-full w-24 h-24 overflow-hidden bg-top">
+                <img class="" src="../src/user.jpg" alt="user">
+            </div>
+            <h1 class="text-4xl font-bold">Erlich Bachman</h1>
+            <p class="text-xs text-gray-400 underline cursor-pointer">erlichbachman@piedpiper.com</p>
+            <button class="font-bold text-sm bg-blue-500 rounded-3xl w-[50%] py-2">Edit Profile</button>
+
+            <div class="w-full flex flex-col items-center justify-center pl-8 gap-2">
+                <div class="w-full flex flex-col items-start justify-center gap-1">
+                    <h3 class="text-sm text-zinc-500 font-bold">Notifications</h3>
+                    <div class="w-[95%] rounded-xl bg-zinc-800 flex items-center justify-around h-12">
+                        <h2 class="text-sm font-bold">Turn on Notifications</h2>
+                        <div class="w-[13%] h-4 rounded-3xl bg-gray-400 cursor-pointer">
+                            <div class="w-4 h-4 rounded-full bg-white"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full flex flex-col items-start justify-center gap-1">
+                    <h3 class="text-sm text-zinc-500 font-bold">Invite Link</h3>
+                    <div class="w-[95%] rounded-xl bg-zinc-800 flex items-center justify-around h-12">
+                        <h2 class="text-sm font-bold">Invite People</h2>
+                        <button class="font-bold text-sm bg-blue-500 rounded-3xl w-[30%] py-1">Invite</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="text-sm font-bold text-zinc-500">Log out</p>
+            <br>
+            <br>
+            <div class="text-xs text-white w-full flex items-center justify-around">
+                <i class="fa-solid fa-house-chimney"></i>
+                <div class="bg-blue-500 rounded-full w-8 h-8 flex items-center justify-center">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <i class="fa-regular fa-clipboard"></i>
+            </div>
+        </div>
+
+        <div class="w-full max-w-xs max-h-[36rem] bg-black gap-3 px-4 rounded-3xl flex flex-col items-center justify-center pt-8 pb-4 xl:absolute xl:top-4 xl:right-24">
+            <div class="w-full flex items-center justify-between">
+                <div class="text-white bg-blue-500 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+
+                <h2 class="text-sm pl-4 font-bold text-white">Daily Progress</h2>
+
+                <div class="text-white flex items-center justify-evenly w-[25%]">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="w-6 h-6 overflow-hidden rounded-full">
+                        <img src="../src/user.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <input type="search" name="search" id="search" placeholder="search" class="bg-zinc-800 py-1 px-4 w-full rounded-xl">
+
+            <div class="w-3/4 flex items-center justify-around self-start">
+                <button class="font-bold text-xs text-white bg-blue-500 rounded-3xl w-[30%] py-1">All</button>
+                <h2 class="font-bold text-zinc-500 text-xs">Favourite</h2>
+            </div>
+
+            <div class="w-full flex items-center justify-between px-2 py-3 gap-2 rounded-xl bg-zinc-800 border-2 border-green-800">
+                <div class="w-4/5 flex items-center">
+                    <div class="text-white bg-blue-500 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+    
+                    <h2 class="text-sm pl-4 font-bold text-white">Read "The Lean Startup"</h2>
+                </div>
+
+                <i class="fa-solid fa-angle-right text-white text-xs"></i>
+            </div>
+
+            <div class="w-full flex items-center justify-between px-2 py-3 gap-2 rounded-xl bg-zinc-800 border-2 border-green-800">
+                <div class="w-4/5 flex items-center">
+                    <div class="text-white bg-green-500 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+    
+                    <h2 class="text-sm pl-4 font-bold text-white">Fix landing page</h2>
+                </div>
+
+                <i class="fa-solid fa-angle-right text-white text-xs"></i>
+            </div>
+
+            <div class="w-full flex items-center justify-between px-2 py-3 gap-2 rounded-xl bg-zinc-800 border-2 border-green-800">
+                <div class="w-11/12  flex items-center">
+                    <div class="text-white bg-purple-500 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+    
+                    <h2 class="text-sm pl-4 font-bold text-white">Share prototype with team</h2>
+                </div>
+
+                <i class="fa-solid fa-angle-right text-white text-xs"></i>
+            </div>
+
+            <div class="w-full flex items-center justify-between px-2 py-3 gap-2 rounded-xl bg-zinc-800">
+                <div class="w-4/5 flex items-center">
+                    <div class="text-white bg-orange-400 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-box-archive"></i>
+                    </div>
+    
+                    <h2 class="text-sm pl-4 font-bold text-white">Reply to Richard</h2>
+                </div>
+
+                <i class="fa-solid fa-angle-right text-white text-xs"></i>
+            </div>
+
+            <div class="w-full flex items-center justify-between px-2 py-3 gap-2 rounded-xl bg-zinc-800">
+                <div class="w-4/5 flex items-center">
+                    <div class="text-white bg-purple-500 w-6 h-6 rounded-lg text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+    
+                    <h2 class="text-sm pl-4 font-bold text-white">Finalize pitch deck</h2>
+                </div>
+
+                <i class="fa-solid fa-angle-right text-white text-xs"></i>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="text-xs text-white w-full flex items-center justify-around">
+                <i class="fa-solid fa-house-chimney"></i>
+                <div class="bg-blue-500 rounded-full w-8 h-8 flex items-center justify-center">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <i class="fa-regular fa-clipboard"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/d191351939.js" crossorigin="anonymous"></script>
+</body>
+</html>
