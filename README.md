@@ -36,7 +36,7 @@
         This card represents a user profile.
         It includes a user image, user name, email (with an underline suggesting it's a link), an "Edit Profile" button, and settings for notifications and invite links.
         A "Log out" link is provided.
-        At the bottom, there are three icons, possibly for additional actions.
+        At the bottom, there are three icons, for navigating to different pages or sections.
         
 ![Screenshot 2023-09-01 182918](https://github.com/Lok-ii/Productivity-App-Webpage/assets/129180844/6ef62052-1e96-45a7-a7f1-6d17041f65b4)
 
